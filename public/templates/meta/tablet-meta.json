@@ -1,0 +1,19 @@
+{
+  "isPremium": false,
+  "price": {
+    "USD": 0
+  },
+  "name": "Business Calculator (Tablet)",
+  "type": "business-calculator",
+  "device": "tablet",
+  "description": "Comprehensive financial and marketing calculation worksheets optimized for tablets.",
+  "id": 100002,
+  "image": "",
+  "hashtags": [
+    "business",
+    "finance",
+    "marketing",
+    "calculator",
+    "tablet"
+  ]
+}

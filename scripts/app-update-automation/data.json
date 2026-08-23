@@ -1,0 +1,116 @@
+{
+  "_comment": "App Update Automation — Central Configuration for Business Calculator",
+
+  "app": {
+    "name": "Business Calculator",
+    "kebabName": "business-calculator",
+    "packageName": "com.aspiring.BusinessCalc",
+    "description": "Offline Financial and Marketing Calculator. Compute present value, monthly loan payments, gross margins, inventory turnover, markups, and markdowns instantly.",
+    "type": "business-calculator",
+    "version": "6.0.0",
+    "marketingVersion": "6.0",
+    "buildNumber": "1"
+  },
+
+  "theme": {
+    "primaryColor": "#4f46e5",
+    "primaryColorRgb": "79, 70, 229",
+    "primaryColorShade": "#4338ca",
+    "primaryColorTint": "#6366f1",
+    "primaryContrast": "#ffffff",
+    "primaryContrastRgb": "255, 255, 255",
+    "secondaryColor": "#f5f3ff",
+    "secondaryColorRgb": "245, 243, 255",
+    "secondaryContrast": "#4338ca",
+    "secondaryContrastRgb": "67, 56, 202",
+    "secondaryShade": "#ede9fe",
+    "secondaryTint": "#ffffff",
+    "backgroundColor": "#f4f5f8"
+  },
+
+  "onboarding": {
+    "welcomeTitle": "Welcome to Business Calculator",
+    "welcomeSubtitle": "Compute present value, monthly loan payments, gross margins, inventory turnover, markups, and markdowns instantly offline.",
+    "features": [
+      "Compute complex financial and marketing metrics instantly offline",
+      "Analyze interest rates, gross sales, cost of goods sold, and markups",
+      "Generate professional PDF reports and share spreadsheets directly"
+    ],
+    "ctaButtonText": "Start Calculating"
+  },
+
+  "pages": {
+    "dashboardHeaderTitle": "Business Calculator",
+    "filesPageHeaderTitle": "My Calculations",
+    "settingsPageAppName": "Business Calculator",
+    "settingsPageMarketingVersion": "6.0",
+    "settingsPageBuildNumber": "1",
+    "settingsCurrencyDescription": "Change the display currency for your business calculations.",
+    "settingsResetDescription": "Wipe all local calculation files, custom templates, and configuration settings completely."
+  },
+
+  "tabs": {
+    "home": "Home",
+    "files": "Files",
+    "settings": "Settings"
+  },
+
+  "templates": {
+    "appType": "business-calculator",
+    "hashtags": ["business", "finance", "marketing", "calculator"],
+    "mobile": {
+      "name": "Business Calculator (Mobile)",
+      "description": "Financial and marketing calculation sheets optimized for mobile layouts.",
+      "mscJsonPath": "/Users/anirudhsharma/Desktop/C4GT/0. Base App Codebase/APPs/business calc/scripts/app-update-automation/templates/Business-Calculator/mobile_wrapped.json"
+    },
+    "tablet": {
+      "name": "Business Calculator (Tablet)",
+      "description": "Comprehensive financial and marketing calculation worksheets optimized for tablets.",
+      "mscJsonPath": "/Users/anirudhsharma/Desktop/C4GT/0. Base App Codebase/APPs/business calc/scripts/app-update-automation/templates/Business-Calculator/tablet_wrapped.json"
+    },
+    "desktop": {
+      "name": "Business Calculator (Desktop)",
+      "description": "Comprehensive financial and marketing calculation worksheets optimized for desktop.",
+      "mscJsonPath": ""
+    },
+    "footerTabNames": {
+      "tab1": "Financial Calculator",
+      "tab2": "Marketing Calculator"
+    }
+  },
+
+  "pdf": {
+    "footerLabel": "Business Calculator",
+    "defaultFilename": "business_calculation",
+    "defaultAllSheetsFilename": "all_business_calculations",
+    "shareSubject": "Here is your Business Calculation",
+    "shareText": "Business Calculation PDF generated successfully",
+    "csvShareText": "Business Calculation data exported as CSV",
+    "singleSheetName": "Calculation Sheet"
+  },
+
+  "menu": {
+    "printWindowTitle": "Print Business Calculation",
+    "emailSubject": "Here is your Business Calculation",
+    "saveToastMessage": "Calculation saved successfully!",
+    "fallbackFileName": "Business Calculation"
+  },
+
+  "ios": {
+    "displayName": "Business Calc",
+    "cameraUsageDescription": "Business Calculator needs access to your camera to capture receipts or document photos.",
+    "photoLibraryUsageDescription": "Business Calculator needs access to your photo library to attach document photos.",
+    "microphoneUsageDescription": "Business Calculator needs microphone access when using the camera."
+  },
+
+  "pwa": {
+    "shortName": "Business Calc",
+    "fullName": "Business Calculator",
+    "themeColor": "#4f46e5",
+    "backgroundColor": "#4f46e5"
+  },
+
+  "icon": {
+    "sourceIconPath": "/Users/anirudhsharma/Desktop/C4GT/0. Base App Codebase/APPs/business calc/scripts/app-update-automation/templates/Business-Calculator/Images.xcassets/AppIcon.appiconset/icon180.png"
+  }
+}

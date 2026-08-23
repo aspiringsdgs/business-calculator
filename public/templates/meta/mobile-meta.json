@@ -1,0 +1,19 @@
+{
+  "isPremium": false,
+  "price": {
+    "USD": 0
+  },
+  "name": "Business Calculator (Mobile)",
+  "type": "business-calculator",
+  "device": "mobile",
+  "description": "Financial and marketing calculation sheets optimized for mobile layouts.",
+  "id": 100001,
+  "image": "",
+  "hashtags": [
+    "business",
+    "finance",
+    "marketing",
+    "calculator",
+    "mobile"
+  ]
+}

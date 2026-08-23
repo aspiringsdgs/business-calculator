@@ -1,0 +1,7 @@
+{
+  "name": "Business Calculator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
